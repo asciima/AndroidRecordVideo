@@ -1,7 +1,11 @@
 # AndroidRecordVideo
 # 安卓，录制短视频
-https://github.com/vip2193/AndroidRecordVideo/blob/master/demo.jpg
-https://github.com/vip2193/AndroidRecordVideo/blob/master/demo1.jpg
+<p>
+   <img src="https://github.com/vip2193/AndroidRecordVideo/blob/master/demo.jpg" width="320" alt="Screenshot"/>
+</p>
+<p>
+   <img src="https://github.com/vip2193/AndroidRecordVideo/blob/master/demo1.jpg" width="320" alt="Screenshot"/>
+</p>
 # USAGE
 # 1.首先声明权限：
     <uses-permission android:name="android.permission.VIBRATE" />
