@@ -14,7 +14,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="100dp" />        
-            
+    
+    <com.practice.videorecordermodel.view.RecordButton
+            android:id="@+id/RecorderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="#000000"
+            android:text="按住拍"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
 
 # 3.初始化这些控件
         mSurfaceView = (SurfaceView) findViewById(R.id.mySurfaceView);
