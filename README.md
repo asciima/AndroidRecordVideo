@@ -9,7 +9,6 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.CAMERA" />
 # 2.添加SufaceView和自定义Button
-
   <com.practice.videorecordermodel.view.RecordButton
             android:id="@+id/RecorderButton"
             android:layout_width="wrap_content"
