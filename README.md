@@ -9,6 +9,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.CAMERA" />
 # 2.添加SufaceView和自定义Button
+
  <SurfaceView
         android:id="@+id/mySurfaceView"
         android:layout_width="match_parent"
@@ -24,7 +25,9 @@
             android:text="按住拍"
             android:textColor="#ffffff"
             android:textSize="20sp" />
+            
 # 3.初始化这些控件
+
         mSurfaceView = (SurfaceView) findViewById(R.id.mySurfaceView);
         mRecordButton = (RecordButton) findViewById(R.id.RecorderButton);
         mRecordButton.setRecordingFinishListener(this);
