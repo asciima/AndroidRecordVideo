@@ -31,6 +31,7 @@
             android:textSize="20sp" />
 
 # 3.初始化这些控件
+```java
         mSurfaceView = (SurfaceView) findViewById(R.id.mySurfaceView);
         mRecordButton = (RecordButton) findViewById(R.id.RecorderButton);
         mRecordButton.setRecordingFinishListener(this);
@@ -38,5 +39,5 @@
         //        mVideoManage.setFileDir(); //这个方法设置录制文件的存放路径
         mRecordButton.setLongestRecordingTime(7f);//设置视频录制的最大时间默认为6f
         mVideoManage.setSurfaceHolder(mSurfaceView.getHolder());
-  
+```
 
