@@ -1,10 +1,6 @@
 # AndroidRecordVideo
 # 安卓，录制短视频
 <p>
-<audio src="song.ogg" controls="controls">
-</audio>
-</p>
-<p>
    <img src="https://github.com/vip2193/AndroidRecordVideo/blob/master/demo1.jpg" width="320" alt="Screenshot"/>
 </p>
 <p>
