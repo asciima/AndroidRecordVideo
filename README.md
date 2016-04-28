@@ -1,4 +1,4 @@
-# AndroidRecordVideo
+# AndroidRecordVideo、RecordScreen
 ## 安卓，录制短视频，录制手机屏幕。录制手机屏幕通过使用 MediaProjectionManager, VirtualDisplay等API实现，只支持android5.0（API21）及以上的版本。
 <p>
    <img src="https://github.com/vip2193/AndroidRecordVideo/blob/master/demo1.jpg" width="320" alt="Screenshot"/>
