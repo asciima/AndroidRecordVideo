@@ -129,29 +129,6 @@ public class MediaPlayerManage extends DialogFragment implements SurfaceHolder.C
 
     @Override
     public void onPrepared(MediaPlayer mp) {
-        //当MediaPlayer准备好了调用此方法
-        // 当prepare完成后，该方法触发，在这里我们播放视频
-        //首先取得video的宽和高
-        vWidth = mp.getVideoWidth();
-        vHeight = mp.getVideoHeight();
 
-        if (vWidth > currDisplay.getWidth() || vHeight > currDisplay.getHeight()) {
-            //如果video的宽或者高超出了当前屏幕的大小，则要进行缩放
-            float wRatio = (float) vWidth / (float) currDisplay.getWidth();
-            float hRatio = (float) vHeight / (float) currDisplay.getHeight();
-
-            //选择大的一个进行缩放
-            float ratio = Math.max(wRatio, hRatio);
-
-            vWidth = (int) Math.ceil((float) vWidth / ratio);
-            vHeight = (int) Math.ceil((float) vHeight / ratio);
-
-            //设置surfaceView的布局参数
-            mSurfaceView.setLayoutParams(new LinearLayout.LayoutParams(vWidth, vHeight));
-
-//        然后开始播放视频
-
-
-        }
     }
 }
