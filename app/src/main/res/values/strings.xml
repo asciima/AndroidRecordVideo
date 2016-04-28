@@ -8,4 +8,6 @@
     <string name="time_is_too_short">录制时间太短！</string>
     <string name="undo_to_cancel">松开取消</string>
     <string name="slide_up_to_cancel">上滑取消</string>
+
+    <string name="press_to_recording_screen">点击开始录制屏幕</string>
 </resources>
