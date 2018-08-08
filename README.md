@@ -6,14 +6,20 @@
 <p>
    <img src="https://github.com/vip2193/AndroidRecordVideo/blob/master/demo.jpg" width="320" alt="Screenshot"/>
 </p>
-# USAGE
+
+#  USAGE
 # 1.首先声明权限：
+```
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.CAMERA" />
+```
+
 # 2.添加SufaceView和自定义Button
+
+```
      <SurfaceView
         android:id="@+id/mySurfaceView"
         android:layout_width="match_parent"
@@ -29,8 +35,10 @@
             android:text="按住拍"
             android:textColor="#ffffff"
             android:textSize="20sp" />
+```
 
 # 3.初始化这些控件
+
 ```java
         mSurfaceView = (SurfaceView) findViewById(R.id.mySurfaceView);
         mRecordButton = (RecordButton) findViewById(R.id.RecorderButton);
